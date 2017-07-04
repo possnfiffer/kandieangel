@@ -1,0 +1,349 @@
+/* ===============================
+  Base Element Styles
+=============================== */
+
+body {
+  font-family: 'Indie Flower', cursive, sans-serif;
+  background: url('../img/photography.png');
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/* ===============================
+  Base Layout Styles
+=============================== */
+
+
+/* ---- Layout Containers ---- */
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.wrap {
+  min-height: calc(100vh - 92px);
+}
+/* ---- Page Elements ---- */
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Fontdiner Swanky', cursive, sans-serif;
+  margin: 15px 0;
+  font-size: 2.45em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: -5px 0 0;
+  text-align: center;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  font-family: 'Fontdiner Swanky', cursive;
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: dimgrey;
+}
+
+.social-icon {
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#imageGallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#imageGallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#imageGallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: dimgrey;
+}
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+.pink-shadow {
+  box-shadow: 0 0 30px 4px rgba(255,20,147,.8);
+}
+
+.blue-shadow {
+  box-shadow: 0 0 30px 4px rgba(0,191,255,.8);
+}
+
+.profile-puppy-photo {
+  display: inline-block;
+  max-width: 100px;
+  margin: 0 15px 28px;
+  border-radius: 100%;
+}
+
+.puppy-wrapper {
+  text-align: center;
+}
+
+.puppy-wrapper ul {
+  margin: 0;
+  padding: 0;
+}
+
+.puppy-wrapper span {
+  display: block;
+  text-align: center;
+  margin: 0 0 16px 0;
+  font-weight: 800;
+}
+
+.kandie {
+  display: block;
+  text-align: center;
+  margin: 0 0 16px 0;
+  font-weight: 800;
+}
+
+.col {
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.rollercom {
+  margin-top: 50px;
+  text-align: center;
+}
+/*
+.butterflies {
+  list-style-image: url(../img/nature-color_butterfly.svg);
+  list-style-position: inside;
+  width: 85%;
+}
+
+.puppies {
+  list-style-image: url(../img/nature-color_paw.svg);
+  list-style-position: inside;
+  width: 85%;
+}
+*/
+
+.qualities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  padding-left: 1em;
+}
+
+.qualities span {
+  display: block;
+  min-height: 28px;
+  background-repeat: no-repeat;
+  background-size: 28px 28px;
+  padding: 7px 0 0 40px;
+  margin: 1px 0 5px;
+}
+
+.qualities li.puppies span {
+  background-image: url('../img/nature-color_paw.svg');
+}
+
+.qualities li.butterflies span {
+  background-image: url('../img/nature-color_butterfly.svg');
+}
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info a span {
+  font-weight: 800;
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/holidays-color_message.svg');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/social-color-1_logo-twitter.svg');
+}
+
+.contact-info li.snapchat a {
+  background-image: url('../img/ghost.svg');
+}
+
+/* ===============================
+  Base Color Styles
+=============================== */
+
+/* site body */
+body {
+  background-color: #fff;
+  color: dimgrey;
+}
+
+/* green header */
+header {
+  background: mediumvioletred;
+  border-color: deeppink;
+}
+
+/* nav background on mobile */
+nav {
+  background: deeppink;
+}
+
+/* logo text */
+h1, h2 {
+  color: deepskyblue;
+}
+
+/* links */
+a {
+  color: mediumvioletred;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: deepskyblue;
+}
+
+
+
+/**********************************
+IMAGE GALLERY OVERLAY
+***********************************/
+
+
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+ margin-top: 10%; 
+}
+
+#overlay p {
+ color:white; 
+}

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width: 480px) {
+
+  
+  body {
+    background: url('../img/custom-BG.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: content-box;
+  }
+    
+  section {
+  	max-width: 940px;
+  	margin: 0 auto;  
+  }
+  
+  section, 
+  footer {
+    background: rgba(255,255,255,.89);
+    padding: 15px 15px 1px 15px;
+  }
+  
+  #about-wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .container {
+    padding: 0;
+  }
+  
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+  
+  #primary {
+    border-radius: 2%;
+    width: 49%;
+    float: left;
+  }
+  
+  #secondary {
+    border-radius: 2%;
+    width: 40%;
+    float: right;
+  }
+  
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  
+  #imageGallery li {
+    width: 28.3333%;
+  }
+  
+  #imageGallery li:nth-child(4n) {
+    clear: left;
+  }
+  
+  #imageGallery li a p {
+  font-size: 1em;
+  font-weight: 800;
+}
+  
+  /**********************************
+  PAGE: ABOUT
+  ***********************************/
+  
+/*
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+*/
+    
+/*
+  span.kandie {
+    margin: 0 0 16px 55px;
+    text-align: left;
+  }
+*/
+}
+
+@media screen and (min-width: 660px) {
+  
+  /**********************************
+  HEADER
+  ***********************************/
+    
+  header h2 {
+    text-align: left;
+  }
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 0.9em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.125em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid deeppink;
+    margin-bottom: 40px;
+  }
+  
+}
+
+@media screen and (min-width: 800px) {
+  nav {
+    font-size: 1.2em;
+  }
+}
